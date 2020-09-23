@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/tarea_datos_2.dir/main.cpp.o  -o tarea_datos_2 

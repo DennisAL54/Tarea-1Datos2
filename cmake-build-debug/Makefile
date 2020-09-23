@@ -68,24 +68,13 @@ RM = /opt/clion-2020.2.3/bin/cmake/linux/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/dennis/Desktop/Tarea 1/Tarea-1Datos2"
+CMAKE_SOURCE_DIR = "/home/dennis/Desktop/Tarea 1/tarea datos 2"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/dennis/Desktop/Tarea 1/Tarea-1Datos2/cmake-build-debug"
+CMAKE_BINARY_DIR = "/home/dennis/Desktop/Tarea 1/tarea datos 2/cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
-
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/opt/clion-2020.2.3/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
 
 # Special rule for the target rebuild_cache
 rebuild_cache:
@@ -98,11 +87,22 @@ rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
 
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/opt/clion-2020.2.3/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
+
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/dennis/Desktop/Tarea 1/Tarea-1Datos2/cmake-build-debug/CMakeFiles" "/home/dennis/Desktop/Tarea 1/Tarea-1Datos2/cmake-build-debug/CMakeFiles/progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/dennis/Desktop/Tarea 1/tarea datos 2/cmake-build-debug/CMakeFiles" "/home/dennis/Desktop/Tarea 1/tarea datos 2/cmake-build-debug/CMakeFiles/progress.marks"
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/dennis/Desktop/Tarea 1/Tarea-1Datos2/cmake-build-debug/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/dennis/Desktop/Tarea 1/tarea datos 2/cmake-build-debug/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -131,17 +131,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Tarea_1Datos2
+# Target rules for targets named tarea_datos_2
 
 # Build rule for target.
-Tarea_1Datos2: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Tarea_1Datos2
-.PHONY : Tarea_1Datos2
+tarea_datos_2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tarea_datos_2
+.PHONY : tarea_datos_2
 
 # fast build rule for target.
-Tarea_1Datos2/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tarea_1Datos2.dir/build.make CMakeFiles/Tarea_1Datos2.dir/build
-.PHONY : Tarea_1Datos2/fast
+tarea_datos_2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tarea_datos_2.dir/build.make CMakeFiles/tarea_datos_2.dir/build
+.PHONY : tarea_datos_2/fast
 
 main.o: main.cpp.o
 
@@ -149,7 +149,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tarea_1Datos2.dir/build.make CMakeFiles/Tarea_1Datos2.dir/main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tarea_datos_2.dir/build.make CMakeFiles/tarea_datos_2.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -158,7 +158,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tarea_1Datos2.dir/build.make CMakeFiles/Tarea_1Datos2.dir/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tarea_datos_2.dir/build.make CMakeFiles/tarea_datos_2.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -167,7 +167,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tarea_1Datos2.dir/build.make CMakeFiles/Tarea_1Datos2.dir/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tarea_datos_2.dir/build.make CMakeFiles/tarea_datos_2.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -178,7 +178,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... Tarea_1Datos2"
+	@echo "... tarea_datos_2"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
