@@ -1,4 +1,4 @@
-# Install script for directory: /home/dennis/Desktop/Tarea 1/tarea datos 2
+# Install script for directory: /home/dennis/Desktop/Tarea 1/Tarea-1Datos2
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/dennis/Desktop/Tarea 1/tarea datos 2/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/dennis/Desktop/Tarea 1/Tarea-1Datos2/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
