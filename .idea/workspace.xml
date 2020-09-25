@@ -43,11 +43,6 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
   <component name="RunManager">
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="tarea_datos_2" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="tarea_datos_2" TARGET_NAME="tarea_datos_2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="tarea_datos_2" RUN_TARGET_NAME="tarea_datos_2">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -72,6 +67,7 @@
       <workItem from="1600913104938" duration="20000" />
       <workItem from="1600923669421" duration="3474000" />
       <workItem from="1600988135905" duration="24034000" />
+      <workItem from="1601065669745" duration="3244000" />
     </task>
     <servers />
   </component>
@@ -83,21 +79,21 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="141" y="21" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1600926650629" />
-    <state width="1324" height="159" key="GridCell.Tab.0.bottom" timestamp="1601025310729">
+    <state width="1324" height="159" key="GridCell.Tab.0.bottom" timestamp="1601070073266">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1324" height="159" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1601025310729" />
-    <state width="1324" height="159" key="GridCell.Tab.0.center" timestamp="1601025310728">
+    <state width="1324" height="159" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1601070073266" />
+    <state width="1324" height="159" key="GridCell.Tab.0.center" timestamp="1601070073263">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1324" height="159" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1601025310728" />
-    <state width="1324" height="159" key="GridCell.Tab.0.left" timestamp="1601025310727">
+    <state width="1324" height="159" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1601070073263" />
+    <state width="1324" height="159" key="GridCell.Tab.0.left" timestamp="1601070073259">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1324" height="159" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1601025310727" />
-    <state width="1324" height="159" key="GridCell.Tab.0.right" timestamp="1601025310728">
+    <state width="1324" height="159" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1601070073259" />
+    <state width="1324" height="159" key="GridCell.Tab.0.right" timestamp="1601070073263">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1324" height="159" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1601025310728" />
+    <state width="1324" height="159" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1601070073263" />
   </component>
 </project>

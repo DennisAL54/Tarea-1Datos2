@@ -6,37 +6,36 @@
 #include <iostream>
 #include "FloydWarshall.cpp"
 using namespace std;
-// stores adjacency list items
+// guarda elementos en la lista de adyacencia
 struct adjNode {
     int val, cost;
     adjNode* next;
 };
-// structure to store edges
+// usada para guardar aristas
 struct graphEdge {
     int start_ver, end_ver, weight;
 };
 class DiaGraph{
-    // insert new nodes into adjacency list from given graph
+    // inserta nuevos nodos
     adjNode* getAdjListNode(int value, int weight, adjNode* head)   {
         adjNode* newNode = new adjNode;
         newNode->val = value;
         newNode->cost = weight;
 
-        newNode->next = head;   // point new node to current head
+        newNode->next = head;
         return newNode;
     }
-    int N;  // number of nodes in the graph
+    int N;  //cantidad de nodos
 public:
-    adjNode **head;                //adjacency list as array of pointers
+    adjNode **head;//lista de adyacencia
     // Constructor
     DiaGraph(graphEdge edges[], int n, int N)  {
-        // allocate new node
+        //coloca nodos
         head = new adjNode*[N]();
         this->N = N;
-        // initialize head pointer for all vertices
         for (int i = 0; i < N; ++i)
             head[i] = nullptr;
-        // construct directed graph by adding edges to it
+        // construye un grafo dirigido
         for (unsigned i = 0; i < n; i++)  {
             int start_ver = edges[i].start_ver;
             int end_ver = edges[i].end_ver;
@@ -44,7 +43,6 @@ public:
             // insert in the beginning
             adjNode* newNode = getAdjListNode(end_ver, weight, head[start_ver]);
 
-            // point head pointer to new node
             head[start_ver] = newNode;
         }
     }
@@ -55,7 +53,7 @@ public:
         delete[] head;
     }
 };
-// print all adjacent vertices of given vertex
+// imprime todas las vertices adyacentes (esta funcion se usa de modelo para imprimir el grafo en forma de matriz)
 void display_AdjList(adjNode* ptr, int i)
 {
     while (ptr != nullptr) {
@@ -65,25 +63,28 @@ void display_AdjList(adjNode* ptr, int i)
     }
     cout << endl;
 }
-int matrixformat(adjNode* ptr, int i){
-    int grafo[5][5];
+int matrixformat(adjNode* ptr, int i){//Funcion para imprimir el grafo en formato matriz
+    int grafo[V][V];//se inicializa un grafo
     int j;
-    while(ptr != nullptr){
-        for (j = 0; j < 5; j++){
+    while(ptr != nullptr){//Bucle para ciclar por la lista de adyacencia
+        for (j = 0; j < V; j++){
             if(i == j) {
                 grafo[i][j] = 0;
             }
-            else{
+            else if(j == ptr->val){
                 grafo[i][j] = ptr->cost;
+            }
+            else{
+                grafo[i][j] = INF;//las conexiones no existentes se guardan como INF
             }
         }
         ptr = ptr->next;
     }
-    if(i == 5){
-        cout<<"Grafo en formato matriz \n";
+    if(i == V){
+        cout<<"Grafo en formato matriz \n";//Imprime la matriz
         for (int j = 0; j < V; j++)
         {
-            for (int k = 0; k < 5; k++)
+            for (int k = 0; k < V; k++)
             {
                 if (grafo[j][k] == INF)
                     cout<<"INF"<<"     ";
@@ -92,6 +93,6 @@ int matrixformat(adjNode* ptr, int i){
             }
             cout<<endl;
         }
-        floydWarshall(grafo);
+        floydWarshall(grafo);//Le aplica floyd warshall
     }
 }
