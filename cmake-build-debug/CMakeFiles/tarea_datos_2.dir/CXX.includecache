@@ -6,11 +6,21 @@
 
 #IncludeRegexTransform: 
 
+/home/dennis/Desktop/Tarea 1/Tarea-1Datos2/FloydWarshall.cpp
+FloydWarshall.h
+/home/dennis/Desktop/Tarea 1/Tarea-1Datos2/FloydWarshall.h
+bits/stdc++.h
+-
+
+/home/dennis/Desktop/Tarea 1/Tarea-1Datos2/FloydWarshall.h
+
 /home/dennis/Desktop/Tarea 1/Tarea-1Datos2/graph.cpp
 graph.h
 /home/dennis/Desktop/Tarea 1/Tarea-1Datos2/graph.h
 iostream
 -
+FloydWarshall.cpp
+/home/dennis/Desktop/Tarea 1/Tarea-1Datos2/FloydWarshall.cpp
 
 /home/dennis/Desktop/Tarea 1/Tarea-1Datos2/graph.h
 

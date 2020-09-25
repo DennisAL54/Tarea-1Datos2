@@ -2,7 +2,7 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="Tarea_1Datos2" targetName="Tarea_1Datos2" />
+      <config projectName="tarea_datos_2" targetName="tarea_datos_2" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -34,6 +34,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -42,9 +43,9 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
   <component name="RunManager">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <configuration name="tarea_datos_2" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="tarea_datos_2" TARGET_NAME="tarea_datos_2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="tarea_datos_2" RUN_TARGET_NAME="tarea_datos_2">
@@ -67,10 +68,36 @@
       <option name="presentableId" value="Default" />
       <updated>1600830698184</updated>
       <workItem from="1600830705827" duration="616000" />
+      <workItem from="1600905593923" duration="877000" />
+      <workItem from="1600913104938" duration="20000" />
+      <workItem from="1600923669421" duration="3474000" />
+      <workItem from="1600988135905" duration="24034000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="141" y="21" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600926650629">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="141" y="21" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1600926650629" />
+    <state width="1324" height="159" key="GridCell.Tab.0.bottom" timestamp="1601025310729">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1324" height="159" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1601025310729" />
+    <state width="1324" height="159" key="GridCell.Tab.0.center" timestamp="1601025310728">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1324" height="159" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1601025310728" />
+    <state width="1324" height="159" key="GridCell.Tab.0.left" timestamp="1601025310727">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1324" height="159" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1601025310727" />
+    <state width="1324" height="159" key="GridCell.Tab.0.right" timestamp="1601025310728">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1324" height="159" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1601025310728" />
   </component>
 </project>

@@ -18,7 +18,9 @@ int main()
     for (int i = 0; i < N; i++)
     {
         // display adjacent vertices of vertex i
-        display_AdjList(diagraph.head[i], i);
+        //display_AdjList(diagraph.head[i], i);
+        matrixformat(diagraph.head[i], i);
+
     }
     return 0;
 }

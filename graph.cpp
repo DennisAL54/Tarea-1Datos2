@@ -4,6 +4,7 @@
 
 #include "graph.h"
 #include <iostream>
+#include "FloydWarshall.cpp"
 using namespace std;
 // stores adjacency list items
 struct adjNode {
@@ -63,4 +64,34 @@ void display_AdjList(adjNode* ptr, int i)
         ptr = ptr->next;
     }
     cout << endl;
+}
+int matrixformat(adjNode* ptr, int i){
+    int grafo[5][5];
+    int j;
+    while(ptr != nullptr){
+        for (j = 0; j < 5; j++){
+            if(i == j) {
+                grafo[i][j] = 0;
+            }
+            else{
+                grafo[i][j] = ptr->cost;
+            }
+        }
+        ptr = ptr->next;
+    }
+    if(i == 5){
+        cout<<"Grafo en formato matriz \n";
+        for (int j = 0; j < V; j++)
+        {
+            for (int k = 0; k < 5; k++)
+            {
+                if (grafo[j][k] == INF)
+                    cout<<"INF"<<"     ";
+                else
+                    cout<<grafo[j][k]<<"     ";
+            }
+            cout<<endl;
+        }
+        floydWarshall(grafo);
+    }
 }
