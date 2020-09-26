@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/dennis/Desktop/Tarea 1/Tarea-1Datos2/Cliente/main.cpp
+cstdio
+-
+sys/socket.h
+-
+arpa/inet.h
+-
+unistd.h
+-
+cstring
+-
+

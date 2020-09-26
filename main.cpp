@@ -3,7 +3,7 @@
 
 int main()
 {
-    // graph edges array.
+    // Array de las aristas del grafo
     graphEdge edges[] = {
             {0,1,2},{0,2,4},{1,4,3},{2,3,2},{3,1,4},{4,3,3}
     };

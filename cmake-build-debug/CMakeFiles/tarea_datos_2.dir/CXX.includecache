@@ -19,6 +19,20 @@ graph.h
 /home/dennis/Desktop/Tarea 1/Tarea-1Datos2/graph.h
 iostream
 -
+string
+-
+unistd.h
+-
+cstdio
+-
+sys/socket.h
+-
+cstdlib
+-
+netinet/in.h
+-
+cstring
+-
 FloydWarshall.cpp
 /home/dennis/Desktop/Tarea 1/Tarea-1Datos2/FloydWarshall.cpp
 
