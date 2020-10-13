@@ -9,9 +9,9 @@
 
 int main(int argc, char const *argv[])
 {
-    int sock = 0, valread;
-    struct sockaddr_in serv_addr;
-    char *saludo = "Grafo recibido";
+    int sock = 0, valread;//Crea socket
+    struct sockaddr_in serv_addr; //Inicializa direcciones
+    char *saludo = "Grafo recibido";//mensaje de respuesta
     char buffer[1024] = {0};
     if ((sock = socket(AF_INET, SOCK_STREAM, 0)) < 0)
     {
@@ -31,6 +31,7 @@ int main(int argc, char const *argv[])
         printf("\nFallo de conexion \n");
         return -1;
     }
+    //lee la entrada y envia una respuesta
     send(sock , saludo , strlen(saludo) , 0 );
     printf("Respuesta enviada\n");
     valread = read( sock , buffer, 1024);

@@ -7,3 +7,5 @@ set(CMAKE_CXX_STANDARD 14)
 
 add_executable(tarea_datos_2 main.cpp)
 
+add_subdirectory(Google_Tests)
+

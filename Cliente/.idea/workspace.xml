@@ -65,11 +65,6 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -80,7 +75,8 @@
       <option name="presentableId" value="Default" />
       <updated>1601070277004</updated>
       <workItem from="1601070278972" duration="2343000" />
-      <workItem from="1601091690258" duration="2849000" />
+      <workItem from="1601091690258" duration="3064000" />
+      <workItem from="1601961139346" duration="335000" />
     </task>
     <servers />
   </component>
@@ -100,21 +96,21 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1324" height="173" key="GridCell.Tab.0.bottom" timestamp="1601098111374">
+    <state width="1324" height="173" key="GridCell.Tab.0.bottom" timestamp="1601961473871">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1324" height="173" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1601098111374" />
-    <state width="1324" height="173" key="GridCell.Tab.0.center" timestamp="1601098111374">
+    <state width="1324" height="173" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1601961473871" />
+    <state width="1324" height="173" key="GridCell.Tab.0.center" timestamp="1601961473870">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1324" height="173" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1601098111374" />
-    <state width="1324" height="173" key="GridCell.Tab.0.left" timestamp="1601098111373">
+    <state width="1324" height="173" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1601961473870" />
+    <state width="1324" height="173" key="GridCell.Tab.0.left" timestamp="1601961473868">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1324" height="173" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1601098111373" />
-    <state width="1324" height="173" key="GridCell.Tab.0.right" timestamp="1601098111374">
+    <state width="1324" height="173" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1601961473868" />
+    <state width="1324" height="173" key="GridCell.Tab.0.right" timestamp="1601961473870">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1324" height="173" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1601098111374" />
+    <state width="1324" height="173" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1601961473870" />
   </component>
 </project>

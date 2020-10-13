@@ -42,8 +42,33 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="CMake Application.tarea_datos_2">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="gmock" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="tarea_datos_2" TARGET_NAME="gmock" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="gmock_main" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="tarea_datos_2" TARGET_NAME="gmock_main" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="gtest" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="tarea_datos_2" TARGET_NAME="gtest" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="gtest_main" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="tarea_datos_2" TARGET_NAME="gtest_main" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -53,6 +78,13 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="CMake Application.tarea_datos_2" />
+      <item itemvalue="CMake Application.gmock" />
+      <item itemvalue="CMake Application.gmock_main" />
+      <item itemvalue="CMake Application.gtest" />
+      <item itemvalue="CMake Application.gtest_main" />
+    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -70,7 +102,9 @@
       <workItem from="1601065669745" duration="3383000" />
       <workItem from="1601072937446" duration="2241000" />
       <workItem from="1601091410014" duration="6410000" />
-      <workItem from="1601097862507" duration="767000" />
+      <workItem from="1601097862507" duration="1027000" />
+      <workItem from="1601961218521" duration="261000" />
+      <workItem from="1602568822317" duration="795000" />
     </task>
     <servers />
   </component>
@@ -82,21 +116,21 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="141" y="21" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1600926650629" />
-    <state width="1324" height="159" key="GridCell.Tab.0.bottom" timestamp="1601097848883">
+    <state width="1324" height="159" key="GridCell.Tab.0.bottom" timestamp="1601961478647">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1324" height="159" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1601097848883" />
-    <state width="1324" height="159" key="GridCell.Tab.0.center" timestamp="1601097848883">
+    <state width="1324" height="159" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1601961478647" />
+    <state width="1324" height="159" key="GridCell.Tab.0.center" timestamp="1601961478646">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1324" height="159" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1601097848883" />
-    <state width="1324" height="159" key="GridCell.Tab.0.left" timestamp="1601097848883">
+    <state width="1324" height="159" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1601961478646" />
+    <state width="1324" height="159" key="GridCell.Tab.0.left" timestamp="1601961478646">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1324" height="159" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1601097848883" />
-    <state width="1324" height="159" key="GridCell.Tab.0.right" timestamp="1601097848883">
+    <state width="1324" height="159" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1601961478646" />
+    <state width="1324" height="159" key="GridCell.Tab.0.right" timestamp="1601961478646">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1324" height="159" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1601097848883" />
+    <state width="1324" height="159" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1601961478646" />
   </component>
 </project>
