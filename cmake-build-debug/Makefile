@@ -59,19 +59,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /opt/clion-2020.2.3/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /snap/clion/129/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /opt/clion-2020.2.3/bin/cmake/linux/bin/cmake -E rm -f
+RM = /snap/clion/129/bin/cmake/linux/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/dennis/Desktop/Tarea 1/Tarea-1Datos2"
+CMAKE_SOURCE_DIR = /home/roy/Desktop/Tarea-1Datos2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/dennis/Desktop/Tarea 1/Tarea-1Datos2/cmake-build-debug"
+CMAKE_BINARY_DIR = /home/roy/Desktop/Tarea-1Datos2/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -79,37 +79,37 @@ CMAKE_BINARY_DIR = "/home/dennis/Desktop/Tarea 1/Tarea-1Datos2/cmake-build-debug
 # Special rule for the target install/strip
 install/strip: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/opt/clion-2020.2.3/bin/cmake/linux/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+	/snap/clion/129/bin/cmake/linux/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip
 
 # Special rule for the target install/strip
 install/strip/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/opt/clion-2020.2.3/bin/cmake/linux/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+	/snap/clion/129/bin/cmake/linux/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip/fast
 
 # Special rule for the target install/local
 install/local: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/opt/clion-2020.2.3/bin/cmake/linux/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+	/snap/clion/129/bin/cmake/linux/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local
 
 # Special rule for the target install/local
 install/local/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/opt/clion-2020.2.3/bin/cmake/linux/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+	/snap/clion/129/bin/cmake/linux/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local/fast
 
 # Special rule for the target install
 install: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/opt/clion-2020.2.3/bin/cmake/linux/bin/cmake -P cmake_install.cmake
+	/snap/clion/129/bin/cmake/linux/bin/cmake -P cmake_install.cmake
 .PHONY : install
 
 # Special rule for the target install
 install/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/opt/clion-2020.2.3/bin/cmake/linux/bin/cmake -P cmake_install.cmake
+	/snap/clion/129/bin/cmake/linux/bin/cmake -P cmake_install.cmake
 .PHONY : install/fast
 
 # Special rule for the target list_install_components
@@ -125,7 +125,7 @@ list_install_components/fast: list_install_components
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/opt/clion-2020.2.3/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/snap/clion/129/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -136,7 +136,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/opt/clion-2020.2.3/bin/cmake/linux/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/snap/clion/129/bin/cmake/linux/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -146,9 +146,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/dennis/Desktop/Tarea 1/Tarea-1Datos2/cmake-build-debug/CMakeFiles" "/home/dennis/Desktop/Tarea 1/Tarea-1Datos2/cmake-build-debug/CMakeFiles/progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/roy/Desktop/Tarea-1Datos2/cmake-build-debug/CMakeFiles /home/roy/Desktop/Tarea-1Datos2/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/dennis/Desktop/Tarea 1/Tarea-1Datos2/cmake-build-debug/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/roy/Desktop/Tarea-1Datos2/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -188,6 +188,19 @@ tarea_datos_2: cmake_check_build_system
 tarea_datos_2/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tarea_datos_2.dir/build.make CMakeFiles/tarea_datos_2.dir/build
 .PHONY : tarea_datos_2/fast
+
+#=============================================================================
+# Target rules for targets named Google_Tests_run
+
+# Build rule for target.
+Google_Tests_run: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Google_Tests_run
+.PHONY : Google_Tests_run
+
+# fast build rule for target.
+Google_Tests_run/fast:
+	$(MAKE) $(MAKESILENT) -f Google_Tests/CMakeFiles/Google_Tests_run.dir/build.make Google_Tests/CMakeFiles/Google_Tests_run.dir/build
+.PHONY : Google_Tests_run/fast
 
 #=============================================================================
 # Target rules for targets named gmock_main
@@ -241,6 +254,60 @@ gtest/fast:
 	$(MAKE) $(MAKESILENT) -f Google_Tests/lib/googletest/CMakeFiles/gtest.dir/build.make Google_Tests/lib/googletest/CMakeFiles/gtest.dir/build
 .PHONY : gtest/fast
 
+Tests/floydWarshallTests.o: Tests/floydWarshallTests.cpp.o
+
+.PHONY : Tests/floydWarshallTests.o
+
+# target to build an object file
+Tests/floydWarshallTests.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tarea_datos_2.dir/build.make CMakeFiles/tarea_datos_2.dir/Tests/floydWarshallTests.cpp.o
+.PHONY : Tests/floydWarshallTests.cpp.o
+
+Tests/floydWarshallTests.i: Tests/floydWarshallTests.cpp.i
+
+.PHONY : Tests/floydWarshallTests.i
+
+# target to preprocess a source file
+Tests/floydWarshallTests.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tarea_datos_2.dir/build.make CMakeFiles/tarea_datos_2.dir/Tests/floydWarshallTests.cpp.i
+.PHONY : Tests/floydWarshallTests.cpp.i
+
+Tests/floydWarshallTests.s: Tests/floydWarshallTests.cpp.s
+
+.PHONY : Tests/floydWarshallTests.s
+
+# target to generate assembly for a file
+Tests/floydWarshallTests.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tarea_datos_2.dir/build.make CMakeFiles/tarea_datos_2.dir/Tests/floydWarshallTests.cpp.s
+.PHONY : Tests/floydWarshallTests.cpp.s
+
+Tests/graphTests.o: Tests/graphTests.cpp.o
+
+.PHONY : Tests/graphTests.o
+
+# target to build an object file
+Tests/graphTests.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tarea_datos_2.dir/build.make CMakeFiles/tarea_datos_2.dir/Tests/graphTests.cpp.o
+.PHONY : Tests/graphTests.cpp.o
+
+Tests/graphTests.i: Tests/graphTests.cpp.i
+
+.PHONY : Tests/graphTests.i
+
+# target to preprocess a source file
+Tests/graphTests.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tarea_datos_2.dir/build.make CMakeFiles/tarea_datos_2.dir/Tests/graphTests.cpp.i
+.PHONY : Tests/graphTests.cpp.i
+
+Tests/graphTests.s: Tests/graphTests.cpp.s
+
+.PHONY : Tests/graphTests.s
+
+# target to generate assembly for a file
+Tests/graphTests.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tarea_datos_2.dir/build.make CMakeFiles/tarea_datos_2.dir/Tests/graphTests.cpp.s
+.PHONY : Tests/graphTests.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -280,11 +347,18 @@ help:
 	@echo "... install/strip"
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
+	@echo "... Google_Tests_run"
 	@echo "... gmock"
 	@echo "... gmock_main"
 	@echo "... gtest"
 	@echo "... gtest_main"
 	@echo "... tarea_datos_2"
+	@echo "... Tests/floydWarshallTests.o"
+	@echo "... Tests/floydWarshallTests.i"
+	@echo "... Tests/floydWarshallTests.s"
+	@echo "... Tests/graphTests.o"
+	@echo "... Tests/graphTests.i"
+	@echo "... Tests/graphTests.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
