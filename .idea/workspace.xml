@@ -2,7 +2,11 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
+      <config projectName="tarea_datos_2" targetName="gtest" />
       <config projectName="tarea_datos_2" targetName="tarea_datos_2" />
+      <config projectName="tarea_datos_2" targetName="gtest_main" />
+      <config projectName="tarea_datos_2" targetName="gmock" />
+      <config projectName="tarea_datos_2" targetName="gmock_main" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -21,6 +25,13 @@
     <option name="formatViaClangd" value="false" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CMakeLists.txt" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -42,12 +53,12 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Tests" />
+    </key>
+  </component>
   <component name="RunManager" selected="CMake Application.tarea_datos_2">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -78,6 +89,11 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="CMake Application.tarea_datos_2" />
       <item itemvalue="CMake Application.gmock" />
@@ -104,7 +120,8 @@
       <workItem from="1601091410014" duration="6410000" />
       <workItem from="1601097862507" duration="1027000" />
       <workItem from="1601961218521" duration="261000" />
-      <workItem from="1602568822317" duration="795000" />
+      <workItem from="1602568822317" duration="1189000" />
+      <workItem from="1602722203158" duration="10566000" />
     </task>
     <servers />
   </component>
@@ -116,6 +133,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="141" y="21" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1600926650629" />
+    <state x="416" y="113" width="524" height="495" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1602734467273">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="416" y="113" width="524" height="495" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1602734467273" />
     <state width="1324" height="159" key="GridCell.Tab.0.bottom" timestamp="1601961478647">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

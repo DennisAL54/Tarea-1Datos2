@@ -6,5 +6,5 @@ CXX_FLAGS = -g   -std=gnu++14
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -isystem /home/roy/Desktop/Tarea-1Datos2/Google_Tests/lib/googletest/include -isystem /home/roy/Desktop/Tarea-1Datos2/Google_Tests/lib/googletest 
+CXX_INCLUDES = -isystem "/home/dennis/Desktop/Tarea 1/Tarea-1Datos2/Google_Tests/lib/googletest/include" -isystem "/home/dennis/Desktop/Tarea 1/Tarea-1Datos2/Google_Tests/lib/googletest" 
 
