@@ -520,63 +520,13 @@ cxxabi.h
 acxx_demangle.h
 -
 
-/home/dennis/Desktop/Tarea 1/Tarea-1Datos2/FloydWarshall.cpp
-FloydWarshall.h
-/home/dennis/Desktop/Tarea 1/Tarea-1Datos2/FloydWarshall.h
-gtest/gtest.h
--
-gmock/gmock.h
--
-bits/stdc++.h
--
-
-/home/dennis/Desktop/Tarea 1/Tarea-1Datos2/FloydWarshall.h
-
-/home/dennis/Desktop/Tarea 1/Tarea-1Datos2/TEST.cpp
-gtest/gtest.h
--
-gmock/gmock.h
--
-graph.h
-/home/dennis/Desktop/Tarea 1/Tarea-1Datos2/graph.h
-
-/home/dennis/Desktop/Tarea 1/Tarea-1Datos2/graph.cpp
-graph.h
-/home/dennis/Desktop/Tarea 1/Tarea-1Datos2/graph.h
+/home/dennis/Desktop/Tarea 1/Tarea-1Datos2/lib/googletest-master/googlemock/src/gmock_main.cc
 iostream
 -
-string
--
-unistd.h
--
-cstdio
--
-sys/socket.h
--
-cstdlib
--
-netinet/in.h
--
-cstring
--
-FloydWarshall.cpp
-/home/dennis/Desktop/Tarea 1/Tarea-1Datos2/FloydWarshall.cpp
-gtest/gtest.h
--
 gmock/gmock.h
--
-
-/home/dennis/Desktop/Tarea 1/Tarea-1Datos2/graph.h
-cstring
--
-
-/home/dennis/Desktop/Tarea 1/Tarea-1Datos2/main.cpp
-iostream
--
-graph.cpp
-/home/dennis/Desktop/Tarea 1/Tarea-1Datos2/graph.cpp
+/home/dennis/Desktop/Tarea 1/Tarea-1Datos2/lib/googletest-master/googlemock/src/gmock/gmock.h
 gtest/gtest.h
--
-gmock/gmock.h
+/home/dennis/Desktop/Tarea 1/Tarea-1Datos2/lib/googletest-master/googlemock/src/gtest/gtest.h
+tchar.h
 -
 

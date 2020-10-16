@@ -157,12 +157,12 @@ CMakeFiles/tarea_datos_2.dir/all: lib/googletest-master/googletest/CMakeFiles/gt
 CMakeFiles/tarea_datos_2.dir/all: lib/googletest-master/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tarea_datos_2.dir/build.make CMakeFiles/tarea_datos_2.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tarea_datos_2.dir/build.make CMakeFiles/tarea_datos_2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/dennis/Desktop/Tarea 1/Tarea-1Datos2/cmake-build-debug/CMakeFiles" --progress-num=9,10 "Built target tarea_datos_2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/dennis/Desktop/Tarea 1/Tarea-1Datos2/cmake-build-debug/CMakeFiles" --progress-num=9,10,11 "Built target tarea_datos_2"
 .PHONY : CMakeFiles/tarea_datos_2.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/tarea_datos_2.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/dennis/Desktop/Tarea 1/Tarea-1Datos2/cmake-build-debug/CMakeFiles" 6
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/dennis/Desktop/Tarea 1/Tarea-1Datos2/cmake-build-debug/CMakeFiles" 7
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/tarea_datos_2.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "/home/dennis/Desktop/Tarea 1/Tarea-1Datos2/cmake-build-debug/CMakeFiles" 0
 .PHONY : CMakeFiles/tarea_datos_2.dir/rule

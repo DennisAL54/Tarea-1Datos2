@@ -241,6 +241,33 @@ gtest/fast:
 	$(MAKE) $(MAKESILENT) -f lib/googletest-master/googletest/CMakeFiles/gtest.dir/build.make lib/googletest-master/googletest/CMakeFiles/gtest.dir/build
 .PHONY : gtest/fast
 
+TEST.o: TEST.cpp.o
+
+.PHONY : TEST.o
+
+# target to build an object file
+TEST.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tarea_datos_2.dir/build.make CMakeFiles/tarea_datos_2.dir/TEST.cpp.o
+.PHONY : TEST.cpp.o
+
+TEST.i: TEST.cpp.i
+
+.PHONY : TEST.i
+
+# target to preprocess a source file
+TEST.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tarea_datos_2.dir/build.make CMakeFiles/tarea_datos_2.dir/TEST.cpp.i
+.PHONY : TEST.cpp.i
+
+TEST.s: TEST.cpp.s
+
+.PHONY : TEST.s
+
+# target to generate assembly for a file
+TEST.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tarea_datos_2.dir/build.make CMakeFiles/tarea_datos_2.dir/TEST.cpp.s
+.PHONY : TEST.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -285,6 +312,9 @@ help:
 	@echo "... gtest"
 	@echo "... gtest_main"
 	@echo "... tarea_datos_2"
+	@echo "... TEST.o"
+	@echo "... TEST.i"
+	@echo "... TEST.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

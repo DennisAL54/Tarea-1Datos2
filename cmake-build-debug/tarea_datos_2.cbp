@@ -338,6 +338,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/dennis/Desktop/Tarea 1/Tarea-1Datos2/TEST.cpp">
+			<Option target="tarea_datos_2"/>
+		</Unit>
 		<Unit filename="/home/dennis/Desktop/Tarea 1/Tarea-1Datos2/lib/googletest-master/googlemock/src/gmock-all.cc">
 			<Option target="gmock"/>
 		</Unit>
