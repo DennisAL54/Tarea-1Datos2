@@ -8,17 +8,11 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-// Vertices
-#define VS 5
-
-// define INF o infinito (o un valor muy grande)
-#define INF 99999
-
 // Imprime la solucion
-void printSolution(int dist[][VS]);
+
 
 //Aplica el algoritmo floyd warshall a un grafo
-void floydWarshall (int graph[][VS])
+void FloydWarshall::floydWarshall (int graph[][VS])
 {
     // dist[][] es el output. i, j y k son punteros
     int dist[VS][VS], i, j, k;
@@ -47,7 +41,7 @@ void floydWarshall (int graph[][VS])
 }
 
 //Imprime la solucion recorriendo la matriz
-void printSolution(int dist[][VS])
+void FloydWarshall::printSolution(int dist[][VS])
 {
     cout<<"Distancia mas corta entre todas las vertices \n";
     for (int i = 0; i < VS; i++)

@@ -12,7 +12,7 @@
 #include <netinet/in.h>
 #include <cstring>
 #define PORT 8080
-#include "FloydWarshall.cpp"
+#include "FloydWarshall.h"
 #include <gtest/gtest.h>
 #include <gmock/gmock.h>
 
@@ -21,15 +21,16 @@ using namespace std;
 
 
 // guarda elementos en la lista de adyacencia
-struct adjNode {
+struct graph::adjNode {
     int val, cost;
     adjNode* next;
 };
 // usada para guardar aristas
-struct graphEdge {
+struct graph::graphEdge {
     int start_ver, end_ver, weight;
 };
-class DiaGraph{
+
+class graph::DiaGraph{
     // inserta nuevos nodos
     adjNode* getAdjListNode(int value, int weight, adjNode* head)   {
         adjNode* newNode = new adjNode;
@@ -68,7 +69,7 @@ public:
     }
 };
 // imprime todas las vertices adyacentes (esta funcion se usa de modelo para imprimir el grafo en forma de matriz)
-void display_AdjList(adjNode* ptr, int i)
+void graph::display_AdjList(adjNode* ptr, int i)
 {
     while (ptr != nullptr) {
         cout << "(" << i << ", " << ptr->val
@@ -77,7 +78,7 @@ void display_AdjList(adjNode* ptr, int i)
     }
     cout << endl;
 }//Funcion utilitaria para transformar matrices en string
-string tostring(int grafoI[VS][VS]){
+string graph::tostring(int grafoI[VS][VS]){
     std::ostringstream stream;
     int m,n;
     for (m = 0; m < VS; m++){
@@ -89,7 +90,7 @@ string tostring(int grafoI[VS][VS]){
     }
     return stream.str();
 }
-int matrixformat(adjNode* ptr, int i){//Funcion para imprimir el grafo en formato matriz
+int graph::matrixformat(adjNode* ptr, int i){//Funcion para imprimir el grafo en formato matriz
     int grafo[VS][VS];//se inicializa un grafo
     int j;
     while(ptr != nullptr){//Bucle para ciclar por la lista de adyacencia

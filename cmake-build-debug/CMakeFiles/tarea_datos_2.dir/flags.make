@@ -6,5 +6,5 @@ CXX_FLAGS = -g   -std=gnu++14
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I"/home/dennis/Desktop/Tarea 1/Tarea-1Datos2/lib/googletest-master/googlemock/include" -isystem "/home/dennis/Desktop/Tarea 1/Tarea-1Datos2/lib/googletest-master/googletest/include" -isystem "/home/dennis/Desktop/Tarea 1/Tarea-1Datos2/lib/googletest-master/googletest" 
+CXX_INCLUDES = -I/home/roy/Desktop/Tarea-1Datos2/lib/googletest-master/googlemock/include -isystem /home/roy/Desktop/Tarea-1Datos2/lib/googletest-master/googletest/include -isystem /home/roy/Desktop/Tarea-1Datos2/lib/googletest-master/googletest 
 
