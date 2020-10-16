@@ -13,6 +13,8 @@
 #include <cstring>
 #define PORT 8080
 #include "FloydWarshall.cpp"
+#include <gtest/gtest.h>
+#include <gmock/gmock.h>
 
 
 using namespace std;
@@ -75,11 +77,11 @@ void display_AdjList(adjNode* ptr, int i)
     }
     cout << endl;
 }//Funcion utilitaria para transformar matrices en string
-string tostring(int grafoI[V][V]){
+string tostring(int grafoI[VS][VS]){
     std::ostringstream stream;
     int m,n;
-    for (m = 0; m < V; m++){
-        for (n = 0; n < V; n++){
+    for (m = 0; m < VS; m++){
+        for (n = 0; n < VS; n++){
             stream << grafoI[m][n] <<'\t';
 
         }
@@ -88,10 +90,10 @@ string tostring(int grafoI[V][V]){
     return stream.str();
 }
 int matrixformat(adjNode* ptr, int i){//Funcion para imprimir el grafo en formato matriz
-    int grafo[V][V];//se inicializa un grafo
+    int grafo[VS][VS];//se inicializa un grafo
     int j;
     while(ptr != nullptr){//Bucle para ciclar por la lista de adyacencia
-        for (j = 0; j < V; j++){
+        for (j = 0; j < VS; j++){
             if(i == j) {
                 grafo[i][j] = 0;
             }
@@ -104,11 +106,11 @@ int matrixformat(adjNode* ptr, int i){//Funcion para imprimir el grafo en format
         }
         ptr = ptr->next;
     }
-    if(i == V){
+    if(i == VS){
         cout<<"Grafo en formato matriz \n";//Imprime la matriz
-        for (int j = 0; j < V; j++)
+        for (int j = 0; j < VS; j++)
         {
-            for (int k = 0; k < V; k++)
+            for (int k = 0; k < VS; k++)
             {
                 if (grafo[j][k] == INF)
                     cout<<"INF"<<"     ";

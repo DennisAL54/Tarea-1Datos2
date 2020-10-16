@@ -1,8 +1,18 @@
 #include <iostream>
 #include "graph.cpp"
+#include <gtest/gtest.h>
+#include <gmock/gmock.h>
 
-int main()
+TEST(retornos, string1){
+    
+    //int prueba[1][1];
+    EXPECT_STREQ("{{1}}", "{{1}}");
+}
+
+int main(int argc, char* argv[])
 {
+    testing::InitGoogleTest(&argc, argv);
+    RUN_ALL_TESTS();
     // Array de las aristas del grafo
     graphEdge edges[] = {
             {0,1,2},{0,2,4},{1,4,3},{2,3,2},{3,1,4},{4,3,3}

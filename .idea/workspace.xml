@@ -95,11 +95,11 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="CMake Application.tarea_datos_2" />
       <item itemvalue="CMake Application.gmock" />
       <item itemvalue="CMake Application.gmock_main" />
       <item itemvalue="CMake Application.gtest" />
       <item itemvalue="CMake Application.gtest_main" />
+      <item itemvalue="CMake Application.tarea_datos_2" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -122,6 +122,9 @@
       <workItem from="1601961218521" duration="261000" />
       <workItem from="1602568822317" duration="1189000" />
       <workItem from="1602722203158" duration="10566000" />
+      <workItem from="1602786669310" duration="266000" />
+      <workItem from="1602802205838" duration="1060000" />
+      <workItem from="1602819573868" duration="7504000" />
     </task>
     <servers />
   </component>
@@ -133,25 +136,29 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="141" y="21" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1600926650629" />
-    <state x="416" y="113" width="524" height="495" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1602734467273">
+    <state x="416" y="113" width="524" height="495" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1602825565689">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="416" y="113" width="524" height="495" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1602734467273" />
-    <state width="1324" height="159" key="GridCell.Tab.0.bottom" timestamp="1601961478647">
+    <state x="416" y="113" width="524" height="495" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1602825565689" />
+    <state width="1324" height="159" key="GridCell.Tab.0.bottom" timestamp="1602829719079">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1324" height="159" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1601961478647" />
-    <state width="1324" height="159" key="GridCell.Tab.0.center" timestamp="1601961478646">
+    <state width="1324" height="159" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1602829719079" />
+    <state width="1324" height="159" key="GridCell.Tab.0.center" timestamp="1602829719078">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1324" height="159" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1601961478646" />
-    <state width="1324" height="159" key="GridCell.Tab.0.left" timestamp="1601961478646">
+    <state width="1324" height="159" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1602829719078" />
+    <state width="1324" height="159" key="GridCell.Tab.0.left" timestamp="1602829719077">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1324" height="159" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1601961478646" />
-    <state width="1324" height="159" key="GridCell.Tab.0.right" timestamp="1601961478646">
+    <state width="1324" height="159" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1602829719077" />
+    <state width="1324" height="159" key="GridCell.Tab.0.right" timestamp="1602829719078">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1324" height="159" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1601961478646" />
+    <state width="1324" height="159" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1602829719078" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1602820089329">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1602820089329" />
   </component>
 </project>

@@ -8,18 +8,18 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
   "../CMakeLists.txt"
-  "../Google_Tests/lib/CMakeLists.txt"
-  "../Google_Tests/lib/googlemock/CMakeLists.txt"
-  "../Google_Tests/lib/googlemock/cmake/gmock.pc.in"
-  "../Google_Tests/lib/googlemock/cmake/gmock_main.pc.in"
-  "../Google_Tests/lib/googletest/CMakeLists.txt"
-  "../Google_Tests/lib/googletest/cmake/Config.cmake.in"
-  "../Google_Tests/lib/googletest/cmake/gtest.pc.in"
-  "../Google_Tests/lib/googletest/cmake/gtest_main.pc.in"
-  "../Google_Tests/lib/googletest/cmake/internal_utils.cmake"
   "CMakeFiles/3.17.3/CMakeCCompiler.cmake"
   "CMakeFiles/3.17.3/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.17.3/CMakeSystem.cmake"
+  "../lib/googletest-master/CMakeLists.txt"
+  "../lib/googletest-master/googlemock/CMakeLists.txt"
+  "../lib/googletest-master/googlemock/cmake/gmock.pc.in"
+  "../lib/googletest-master/googlemock/cmake/gmock_main.pc.in"
+  "../lib/googletest-master/googletest/CMakeLists.txt"
+  "../lib/googletest-master/googletest/cmake/Config.cmake.in"
+  "../lib/googletest-master/googletest/cmake/gtest.pc.in"
+  "../lib/googletest-master/googletest/cmake/gtest_main.pc.in"
+  "../lib/googletest-master/googletest/cmake/internal_utils.cmake"
   "/opt/clion-2020.2.3/bin/cmake/linux/share/cmake-3.17/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in"
   "/opt/clion-2020.2.3/bin/cmake/linux/share/cmake-3.17/Modules/CMakeCInformation.cmake"
   "/opt/clion-2020.2.3/bin/cmake/linux/share/cmake-3.17/Modules/CMakeCXXInformation.cmake"
@@ -65,16 +65,16 @@ set(CMAKE_MAKEFILE_OUTPUTS
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
-  "Google_Tests/lib/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "Google_Tests/lib/googlemock/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "Google_Tests/lib/googletest/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "lib/googletest-master/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "lib/googletest-master/googlemock/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "lib/googletest-master/googletest/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/tarea_datos_2.dir/DependInfo.cmake"
-  "Google_Tests/lib/googlemock/CMakeFiles/gmock_main.dir/DependInfo.cmake"
-  "Google_Tests/lib/googlemock/CMakeFiles/gmock.dir/DependInfo.cmake"
-  "Google_Tests/lib/googletest/CMakeFiles/gtest_main.dir/DependInfo.cmake"
-  "Google_Tests/lib/googletest/CMakeFiles/gtest.dir/DependInfo.cmake"
+  "lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/DependInfo.cmake"
+  "lib/googletest-master/googlemock/CMakeFiles/gmock.dir/DependInfo.cmake"
+  "lib/googletest-master/googletest/CMakeFiles/gtest_main.dir/DependInfo.cmake"
+  "lib/googletest-master/googletest/CMakeFiles/gtest.dir/DependInfo.cmake"
   )
