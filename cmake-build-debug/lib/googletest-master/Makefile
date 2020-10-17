@@ -59,19 +59,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /snap/clion/129/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /opt/clion-2020.2.3/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /snap/clion/129/bin/cmake/linux/bin/cmake -E rm -f
+RM = /opt/clion-2020.2.3/bin/cmake/linux/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/roy/Desktop/Tarea-1Datos2
+CMAKE_SOURCE_DIR = "/home/dennis/Desktop/Tarea 1/Tarea-1Datos2"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/roy/Desktop/Tarea-1Datos2/cmake-build-debug
+CMAKE_BINARY_DIR = "/home/dennis/Desktop/Tarea 1/Tarea-1Datos2/cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -79,31 +79,31 @@ CMAKE_BINARY_DIR = /home/roy/Desktop/Tarea-1Datos2/cmake-build-debug
 # Special rule for the target install/strip
 install/strip: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/snap/clion/129/bin/cmake/linux/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+	/opt/clion-2020.2.3/bin/cmake/linux/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip
 
 # Special rule for the target install/strip
 install/strip/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/snap/clion/129/bin/cmake/linux/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+	/opt/clion-2020.2.3/bin/cmake/linux/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip/fast
 
 # Special rule for the target install/local
 install/local: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/snap/clion/129/bin/cmake/linux/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+	/opt/clion-2020.2.3/bin/cmake/linux/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local
 
 # Special rule for the target install/local
 install/local/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/snap/clion/129/bin/cmake/linux/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+	/opt/clion-2020.2.3/bin/cmake/linux/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local/fast
 
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/snap/clion/129/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/opt/clion-2020.2.3/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -114,7 +114,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/snap/clion/129/bin/cmake/linux/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/opt/clion-2020.2.3/bin/cmake/linux/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -135,25 +135,25 @@ list_install_components/fast: list_install_components
 # Special rule for the target install
 install: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/snap/clion/129/bin/cmake/linux/bin/cmake -P cmake_install.cmake
+	/opt/clion-2020.2.3/bin/cmake/linux/bin/cmake -P cmake_install.cmake
 .PHONY : install
 
 # Special rule for the target install
 install/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/snap/clion/129/bin/cmake/linux/bin/cmake -P cmake_install.cmake
+	/opt/clion-2020.2.3/bin/cmake/linux/bin/cmake -P cmake_install.cmake
 .PHONY : install/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/roy/Desktop/Tarea-1Datos2/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /home/roy/Desktop/Tarea-1Datos2/cmake-build-debug/CMakeFiles /home/roy/Desktop/Tarea-1Datos2/cmake-build-debug/lib/googletest-master/CMakeFiles/progress.marks
-	cd /home/roy/Desktop/Tarea-1Datos2/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/googletest-master/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/roy/Desktop/Tarea-1Datos2/cmake-build-debug/CMakeFiles 0
+	cd "/home/dennis/Desktop/Tarea 1/Tarea-1Datos2/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_progress_start "/home/dennis/Desktop/Tarea 1/Tarea-1Datos2/cmake-build-debug/CMakeFiles" "/home/dennis/Desktop/Tarea 1/Tarea-1Datos2/cmake-build-debug/lib/googletest-master/CMakeFiles/progress.marks"
+	cd "/home/dennis/Desktop/Tarea 1/Tarea-1Datos2/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/googletest-master/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/dennis/Desktop/Tarea 1/Tarea-1Datos2/cmake-build-debug/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/roy/Desktop/Tarea-1Datos2/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/googletest-master/clean
+	cd "/home/dennis/Desktop/Tarea 1/Tarea-1Datos2/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/googletest-master/clean
 .PHONY : clean
 
 # The main clean target
@@ -163,17 +163,17 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/roy/Desktop/Tarea-1Datos2/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/googletest-master/preinstall
+	cd "/home/dennis/Desktop/Tarea 1/Tarea-1Datos2/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/googletest-master/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/roy/Desktop/Tarea-1Datos2/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/googletest-master/preinstall
+	cd "/home/dennis/Desktop/Tarea 1/Tarea-1Datos2/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/googletest-master/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/roy/Desktop/Tarea-1Datos2/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd "/home/dennis/Desktop/Tarea 1/Tarea-1Datos2/cmake-build-debug" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Help Target
@@ -199,6 +199,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/roy/Desktop/Tarea-1Datos2/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd "/home/dennis/Desktop/Tarea 1/Tarea-1Datos2/cmake-build-debug" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -17,7 +17,7 @@ struct graphTests : testing::Test{
 };
 
 TEST_F(graphTests, string1){
-    int prueba[1][1];
+    int prueba[5][5];
     EXPECT_STREQ("{{1}}", grafoPrueba->tostring(prueba));
 }
 

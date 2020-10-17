@@ -12,6 +12,7 @@ using namespace std;
 
 class graph {
 public:
+    struct graphEdge;
     struct adjNode;
     class DiaGraph;
     string tostring(int grafoI[VS][VS]);

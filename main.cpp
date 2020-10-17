@@ -3,16 +3,7 @@
 #include <gtest/gtest.h>
 #include <gmock/gmock.h>
 
-/*struct graphTests : testing::Test{
-    graph* grafoPrueba;
-    graphTests(){
-        grafoPrueba = new graph;
-    }
-    ~graphTests(){
-        delete grafoPrueba;
-    }
-};
-
+/*
 TEST_F(graphTests, string1){
     //int prueba[1][1];
     EXPECT_STREQ("{{1}}", "{{1}}");

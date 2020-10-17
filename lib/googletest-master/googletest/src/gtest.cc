@@ -1658,7 +1658,7 @@ GTEST_IMPL_CMP_HELPER_(GT, > )
 AssertionResult CmpHelperSTREQ(const char* lhs_expression,
                                const char* rhs_expression,
                                const char* lhs,
-                               const char* rhs) {
+                               std::basic_string<char> rhs) {
   if (String::CStringEquals(lhs, rhs)) {
     return AssertionSuccess();
   }
